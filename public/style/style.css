@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appWraper {
+    width: 80vh;
+    padding: 2rem;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    flex-direction: column;
+}
+
+.app-border {
+    width: 80%;
+    padding: 7px;
+    border: 2px dashed rgb(121, 118, 118);
+}
+.appWraper .upload-area {
+    cursor: pointer;
+    width: 100%;
+}
+.appWraper .upload-icon {
+    font-size: 50px;
+    color: rgb(27, 201, 114);
+    text-align: center;
+}
+.appWraper .upload-icon p {
+    font-size: 30px;
+}
+.progress_bar {
+    padding: 5px 2px;
+    border-radius: 7px;
+}
+#progress-area {
+    width: 60%;
+}
+.progress-file-icon {
+    font-size: 30px;
+    color: blue;
+}
+
+.progress-file-info {
+    display: flex;
+    flex-direction: column;
+}
+.progress-line {
+    height: 7px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.file-progress {
+    background-color: rgb(0, 132, 255);
+    height: 7px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.line-break {
+    width: 80%;
+    height: 3px;
+    background-color: rgb(114, 31, 192);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.uploaded-file-area {
+    width: 60%;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#upload-file {
+    border-radius: 10px;
+    margin: 1rem;
+}
